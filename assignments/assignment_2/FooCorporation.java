@@ -14,7 +14,7 @@ public class FooCorporation {
         if (!validateInput(employeeName, basePay, hoursWorked)) {
             return;
         }
-        double totalSalary = 0;
+        double totalSalary;
         if (hoursWorked <= 40) {
             totalSalary = basePay * hoursWorked;
         } else {
